@@ -5,9 +5,7 @@
    4 cat /home/user/start/1.txt 
    5 mkdir -p /opt/task
    6 cp /home/user/start/1.txt /opt/task/start.txt
-   7 / ls -la
    8 cd /
-   9 ls -la
-  10 ls -la | tail -4 >> /opt/task/start.txt 
-  11 cat /opt/task/start.txt 
-  12 history > history.txt
+   9 ls -la | tail -4 >> /opt/task/start.txt 
+  10 cat /opt/task/start.txt 
+  11 history > history.txt

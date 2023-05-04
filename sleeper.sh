@@ -3,7 +3,7 @@
  for write in {1..10}
  do
  date +'%H:%M:%S'
- ps -ef | wc -l
+ ps -ef | grep -vw UID | wc -l
 # sleep 5
  done
 

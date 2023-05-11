@@ -10,6 +10,6 @@ date=$(date +"%H%M%S")
 echo "Done"
 
 
-план запуска для планировщика cron
-
-*/15 * * * * /opt/280223_m/walter_bruch/taskWalter.sh
+# план запуска для планировщика cron
+#
+#  */15 * * * * /opt/280223_m/walter_bruch/taskWalter.sh
